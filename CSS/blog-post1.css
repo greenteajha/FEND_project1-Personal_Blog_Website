@@ -57,7 +57,7 @@
             .post1-container {
                 grid-area: post1;
                 display: grid;
-                grid-template-rows: 120px 150px 450px 1fr;
+                grid-template-rows: 120px 150px 550px 1fr;
                 grid-template-areas: 
                 "title"
                 "author"
