@@ -1,669 +1,664 @@
 /*Extra Large Devices*/
-@media(min-width:1200px){
-    
-    body {
+@media (min-width: 1200px) {
+  body {
     margin: 0px;
     background-color: rgb(220, 220, 224);
-}
+  }
 
-    .root-container {
-        display: grid;
-        grid-template-rows: 300px 400px 50px;
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "header"
-        "subscription"
-        "footer";
-    }
+  .root-container {
+    display: grid;
+    grid-template-rows: 300px 400px 50px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "header"
+      "subscription"
+      "footer";
+  }
 
-        .header-container {
-            display: flex;
-            flex-direction: column;
-            grid-area: header;
-            height: 100%;
-        }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    grid-area: header;
+    height: 100%;
+  }
 
-            .banner-container {
-                display: flex;
-                height: 75%;
-                background-image: url("../Images/banner.jpg");
-                opacity: 0.95;
-                align-items: center;
-                text-align: left;
-            }
+  .banner-container {
+    display: flex;
+    height: 75%;
+    background-image: url("../Images/banner.jpg");
+    opacity: 0.95;
+    align-items: center;
+    text-align: left;
+  }
 
-                #banner-text {
-                    color: white;
-                    font-size: 2vw;
-                    padding-left: 50px;
-                }
+  #banner-text {
+    color: white;
+    font-size: 2vw;
+    padding-left: 50px;
+  }
 
-            .navigation-container {
-                display: flex;
-                height: 25%;
-                justify-content: space-around;
-                background: black;
-            }
+  .navigation-container {
+    display: flex;
+    height: 25%;
+    justify-content: space-around;
+    background: black;
+  }
 
-                .navigation-container a {
-                    align-self: center;
-                    background: black;
-                    color: white;
-                    text-decoration: none;
-                    font-size: 1.2vw;
-                }
+  .navigation-container a {
+    align-self: center;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+  }
 
-        .form-container {
-            grid-area: subscription;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            text-align: center;
-        }
+  .form-container {
+    grid-area: subscription;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+  }
 
-            .sub-form-text {
-                display: grid;
-                flex-direction: column;
-                background-color: white;
-                height: 50%;
-            }
+  .sub-form-text {
+    display: grid;
+    flex-direction: column;
+    background-color: white;
+    height: 50%;
+  }
 
-                .sub-form-text h2 {
-                    font-size: 2vw;
-                }
+  .sub-form-text h2 {
+    font-size: 2vw;
+  }
 
-                .sub-form-text p {
-                    font-size: 1vw;
-                }
+  .sub-form-text p {
+    font-size: 1vw;
+  }
 
-            .sub-form-fields {
-                display: flex;
-                flex-direction: column;
-                background-color: white;
-                justify-content: center;
-                align-items: center;
-                height: 30%;
-                gap: 10px;
-            }
+  .sub-form-fields {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    gap: 10px;
+  }
 
-                .sub-form-fields input {
-                    height: 30%;
-                    width: 40%;
-                }
+  .sub-form-fields input {
+    height: 30%;
+    width: 40%;
+  }
 
-            .sub-form-button {
-                display: flex;
-                flex-direction: column;
-                background-color: white;
-                justify-content: center;
-                align-items: center;
-                height: 20%;
-                gap: 10px;
-                padding: 10px;
-            }
+  .sub-form-button {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    gap: 10px;
+    padding: 10px;
+  }
 
-                .sub-form-button input {
-                    width: 40%;
-                    height: 55%;
-                    background-color: black;
-                    color: white;
-                    font-size: 1.2vw;
-                }
+  .sub-form-button input {
+    width: 40%;
+    height: 55%;
+    background-color: black;
+    color: white;
+    font-size: 1.2vw;
+  }
 
-        .footer-container {
-            display: flex;
-            height: 100%;
-            background: black;
-            color: white;
-            align-items: center;
-            justify-content: center;
-            grid-area: footer;
-        }
+  .footer-container {
+    display: flex;
+    height: 100%;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+  }
 
-            .footer-container a {
-                display: flex;
-                padding-left: 10px;
-                height: 80%;
-                align-items: center;
-            }
+  .footer-container a {
+    display: flex;
+    padding-left: 10px;
+    height: 80%;
+    align-items: center;
+  }
 
-            .footer-container img {
-                height: 80%;
-            }
+  .footer-container img {
+    height: 80%;
+  }
 }
 
 /*Laptops*/
-@media (min-width:992px) and (max-width:1199px){
-    
-    body {
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
     margin: 0px;
     background-color: rgb(220, 220, 224);
-}
+  }
 
-    .root-container {
-        display: grid;
-        grid-template-rows: 300px 400px 50px;
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "header"
-        "subscription"
-        "footer";
-    }
+  .root-container {
+    display: grid;
+    grid-template-rows: 300px 400px 50px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "header"
+      "subscription"
+      "footer";
+  }
 
-        .header-container {
-            display: flex;
-            flex-direction: column;
-            grid-area: header;
-            height: 100%;
-        }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    grid-area: header;
+    height: 100%;
+  }
 
-            .banner-container {
-                display: flex;
-                height: 75%;
-                background-image: url("../Images/banner.jpg");
-                opacity: 0.95;
-                align-items: center;
-                text-align: left;
-            }
+  .banner-container {
+    display: flex;
+    height: 75%;
+    background-image: url("../Images/banner.jpg");
+    opacity: 0.95;
+    align-items: center;
+    text-align: left;
+  }
 
-                #banner-text {
-                    color: white;
-                    font-size: 3vw;
-                    padding-left: 50px;
-                }
+  #banner-text {
+    color: white;
+    font-size: 3vw;
+    padding-left: 50px;
+  }
 
-            .navigation-container {
-                display: flex;
-                height: 25%;
-                justify-content: space-around;
-                background: black;
-            }
+  .navigation-container {
+    display: flex;
+    height: 25%;
+    justify-content: space-around;
+    background: black;
+  }
 
-                .navigation-container a {
-                    align-self: center;
-                    background: black;
-                    color: white;
-                    text-decoration: none;
-                    font-size: 2vw;
-                }
+  .navigation-container a {
+    align-self: center;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+  }
 
-        .form-container {
-            grid-area: subscription;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            text-align: center;
-        }
+  .form-container {
+    grid-area: subscription;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+  }
 
-            .sub-form-text {
-                display: grid;
-                flex-direction: column;
-                background-color: white;
-                height: 50%;
-            }
+  .sub-form-text {
+    display: grid;
+    flex-direction: column;
+    background-color: white;
+    height: 50%;
+  }
 
-                .sub-form-text h2 {
-                    font-size: 2.5vw;
-                }
+  .sub-form-text h2 {
+    font-size: 2.5vw;
+  }
 
-                .sub-form-text p {
-                    font-size: 1.5vw;
-                }
+  .sub-form-text p {
+    font-size: 1.5vw;
+  }
 
-            .sub-form-fields {
-                display: flex;
-                flex-direction: column;
-                background-color: white;
-                justify-content: center;
-                align-items: center;
-                height: 30%;
-                gap: 10px;
-            }
+  .sub-form-fields {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    gap: 10px;
+  }
 
-                .sub-form-fields input {
-                    height: 30%;
-                    width: 40%;
-                }
+  .sub-form-fields input {
+    height: 30%;
+    width: 40%;
+  }
 
-            .sub-form-button {
-                display: flex;
-                flex-direction: column;
-                background-color: white;
-                justify-content: center;
-                align-items: center;
-                height: 20%;
-                gap: 10px;
-                padding: 10px;
-            }
+  .sub-form-button {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    gap: 10px;
+    padding: 10px;
+  }
 
-                .sub-form-button input {
-                    width: 40%;
-                    height: 55%;
-                    background-color: black;
-                    color: white;
-                    font-size: 1.7vw;
-                }
+  .sub-form-button input {
+    width: 40%;
+    height: 55%;
+    background-color: black;
+    color: white;
+    font-size: 1.7vw;
+  }
 
-        .footer-container {
-            display: flex;
-            height: 100%;
-            background: black;
-            color: white;
-            align-items: center;
-            justify-content: center;
-            grid-area: footer;
-        }
+  .footer-container {
+    display: flex;
+    height: 100%;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+  }
 
-            .footer-container a {
-                display: flex;
-                padding-left: 10px;
-                height: 80%;
-                align-items: center;
-            }
+  .footer-container a {
+    display: flex;
+    padding-left: 10px;
+    height: 80%;
+    align-items: center;
+  }
 
-            .footer-container img {
-                height: 80%;
-            }
+  .footer-container img {
+    height: 80%;
+  }
 }
 
 /*Landscape Tablets*/
-@media (min-width:768px) and (max-width:991px){
-    
-    body {
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
     margin: 0px;
     background-color: rgb(220, 220, 224);
-}
+  }
 
-    .root-container {
-        display: grid;
-        grid-template-rows: 300px 400px 50px;
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "header"
-        "subscription"
-        "footer";
-    }
+  .root-container {
+    display: grid;
+    grid-template-rows: 300px 400px 50px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "header"
+      "subscription"
+      "footer";
+  }
 
-        .header-container {
-            display: flex;
-            flex-direction: column;
-            grid-area: header;
-            height: 100%;
-        }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    grid-area: header;
+    height: 100%;
+  }
 
-            .banner-container {
-                display: flex;
-                height: 75%;
-                background-image: url("../Images/banner.jpg");
-                opacity: 0.95;
-                align-items: center;
-                text-align: left;
-            }
+  .banner-container {
+    display: flex;
+    height: 75%;
+    background-image: url("../Images/banner.jpg");
+    opacity: 0.95;
+    align-items: center;
+    text-align: left;
+  }
 
-                #banner-text {
-                    color: white;
-                    font-size: 3vw;
-                    padding-left: 50px;
-                }
+  #banner-text {
+    color: white;
+    font-size: 3vw;
+    padding-left: 50px;
+  }
 
-            .navigation-container {
-                display: flex;
-                height: 25%;
-                justify-content: space-around;
-                background: black;
-            }
+  .navigation-container {
+    display: flex;
+    height: 25%;
+    justify-content: space-around;
+    background: black;
+  }
 
-                .navigation-container a {
-                    align-self: center;
-                    background: black;
-                    color: white;
-                    text-decoration: none;
-                    font-size: 2vw;
-                }
+  .navigation-container a {
+    align-self: center;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+  }
 
-        .form-container {
-            grid-area: subscription;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            text-align: center;
-        }
+  .form-container {
+    grid-area: subscription;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+  }
 
-            .sub-form-text {
-                display: grid;
-                flex-direction: column;
-                background-color: white;
-                height: 50%;
-            }
+  .sub-form-text {
+    display: grid;
+    flex-direction: column;
+    background-color: white;
+    height: 50%;
+  }
 
-                .sub-form-text h2 {
-                    font-size: 2.8vw;
-                }
+  .sub-form-text h2 {
+    font-size: 2.8vw;
+  }
 
-                .sub-form-text p {
-                    font-size: 1.8vw;
-                }
+  .sub-form-text p {
+    font-size: 1.8vw;
+  }
 
-            .sub-form-fields {
-                display: flex;
-                flex-direction: column;
-                background-color: white;
-                justify-content: center;
-                align-items: center;
-                height: 30%;
-                gap: 10px;
-            }
+  .sub-form-fields {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    gap: 10px;
+  }
 
-                .sub-form-fields input {
-                    height: 30%;
-                    width: 40%;
-                }
+  .sub-form-fields input {
+    height: 30%;
+    width: 40%;
+  }
 
-            .sub-form-button {
-                display: flex;
-                flex-direction: column;
-                background-color: white;
-                justify-content: center;
-                align-items: center;
-                height: 20%;
-                gap: 10px;
-                padding: 10px;
-            }
+  .sub-form-button {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    gap: 10px;
+    padding: 10px;
+  }
 
-                .sub-form-button input {
-                    width: 40%;
-                    height: 55%;
-                    background-color: black;
-                    color: white;
-                    font-size: 1.7vw;
-                }
+  .sub-form-button input {
+    width: 40%;
+    height: 55%;
+    background-color: black;
+    color: white;
+    font-size: 1.7vw;
+  }
 
-        .footer-container {
-            display: flex;
-            height: 100%;
-            background: black;
-            color: white;
-            align-items: center;
-            justify-content: center;
-            grid-area: footer;
-        }
+  .footer-container {
+    display: flex;
+    height: 100%;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+  }
 
-            .footer-container a {
-                display: flex;
-                padding-left: 10px;
-                height: 80%;
-                align-items: center;
-            }
+  .footer-container a {
+    display: flex;
+    padding-left: 10px;
+    height: 80%;
+    align-items: center;
+  }
 
-            .footer-container img {
-                height: 80%;
-            }
+  .footer-container img {
+    height: 80%;
+  }
 }
 
 /*Portrait Tablets and Large Phones*/
-@media (min-width:600px) and (max-width:767px){
-    
-    body {
+@media (min-width: 600px) and (max-width: 767px) {
+  body {
     margin: 0px;
     background-color: rgb(220, 220, 224);
-}
+  }
 
-    .root-container {
-        display: grid;
-        grid-template-rows: 300px 400px 50px;
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "header"
-        "subscription"
-        "footer";
-    }
+  .root-container {
+    display: grid;
+    grid-template-rows: 300px 400px 50px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "header"
+      "subscription"
+      "footer";
+  }
 
-        .header-container {
-            display: flex;
-            flex-direction: column;
-            grid-area: header;
-            height: 100%;
-        }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    grid-area: header;
+    height: 100%;
+  }
 
-            .banner-container {
-                display: flex;
-                height: 75%;
-                background-image: url("../Images/banner.jpg");
-                opacity: 0.95;
-                align-items: center;
-                text-align: left;
-            }
+  .banner-container {
+    display: flex;
+    height: 75%;
+    background-image: url("../Images/banner.jpg");
+    opacity: 0.95;
+    align-items: center;
+    text-align: left;
+  }
 
-                #banner-text {
-                    color: white;
-                    font-size: 3.5vw;
-                    padding-left: 50px;
-                }
+  #banner-text {
+    color: white;
+    font-size: 3.5vw;
+    padding-left: 50px;
+  }
 
-            .navigation-container {
-                display: flex;
-                height: 25%;
-                justify-content: space-around;
-                background: black;
-            }
+  .navigation-container {
+    display: flex;
+    height: 25%;
+    justify-content: space-around;
+    background: black;
+  }
 
-                .navigation-container a {
-                    align-self: center;
-                    background: black;
-                    color: white;
-                    text-decoration: none;
-                    font-size: 2.5vw;
-                }
+  .navigation-container a {
+    align-self: center;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-size: 2.5vw;
+  }
 
-        .form-container {
-            grid-area: subscription;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            text-align: center;
-        }
+  .form-container {
+    grid-area: subscription;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+  }
 
-            .sub-form-text {
-                display: grid;
-                flex-direction: column;
-                background-color: white;
-                height: 50%;
-            }
+  .sub-form-text {
+    display: grid;
+    flex-direction: column;
+    background-color: white;
+    height: 50%;
+  }
 
-                .sub-form-text h2 {
-                    font-size: 3.3vw;
-                }
+  .sub-form-text h2 {
+    font-size: 3.3vw;
+  }
 
-                .sub-form-text p {
-                    font-size: 2.3vw;
-                }
+  .sub-form-text p {
+    font-size: 2.3vw;
+  }
 
-            .sub-form-fields {
-                display: flex;
-                flex-direction: column;
-                background-color: white;
-                justify-content: center;
-                align-items: center;
-                height: 30%;
-                gap: 10px;
-            }
+  .sub-form-fields {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    gap: 10px;
+  }
 
-                .sub-form-fields input {
-                    height: 30%;
-                    width: 40%;
-                }
+  .sub-form-fields input {
+    height: 30%;
+    width: 40%;
+  }
 
-            .sub-form-button {
-                display: flex;
-                flex-direction: column;
-                background-color: white;
-                justify-content: center;
-                align-items: center;
-                height: 20%;
-                gap: 10px;
-                padding: 10px;
-            }
+  .sub-form-button {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    gap: 10px;
+    padding: 10px;
+  }
 
-                .sub-form-button input {
-                    width: 40%;
-                    height: 55%;
-                    background-color: black;
-                    color: white;
-                    font-size: 2vw;
-                }
+  .sub-form-button input {
+    width: 40%;
+    height: 55%;
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+  }
 
-        .footer-container {
-            display: flex;
-            height: 100%;
-            background: black;
-            color: white;
-            align-items: center;
-            justify-content: center;
-            grid-area: footer;
-        }
+  .footer-container {
+    display: flex;
+    height: 100%;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+  }
 
-            .footer-container a {
-                display: flex;
-                padding-left: 10px;
-                height: 80%;
-                align-items: center;
-            }
+  .footer-container a {
+    display: flex;
+    padding-left: 10px;
+    height: 80%;
+    align-items: center;
+  }
 
-            .footer-container img {
-                height: 80%;
-            }
+  .footer-container img {
+    height: 80%;
+  }
 }
 
 /*Phones*/
-@media (max-width:600px){
-    
-    body {
+@media (max-width: 600px) {
+  body {
     margin: 0px;
     background-color: rgb(220, 220, 224);
-}
+  }
 
-    .root-container {
-        display: grid;
-        grid-template-rows: 150px 400px 50px;
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "header"
-        "subscription"
-        "footer";
-    }
+  .root-container {
+    display: grid;
+    grid-template-rows: 150px 400px 50px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "header"
+      "subscription"
+      "footer";
+  }
 
-        .header-container {
-            display: flex;
-            flex-direction: column;
-            grid-area: header;
-            height: 100%;
-        }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    grid-area: header;
+    height: 100%;
+  }
 
-            .banner-container {
-                display: flex;
-                height: 75%;
-                background-image: url("../Images/banner.jpg");
-                opacity: 0.95;
-                align-items: center;
-                text-align: left;
-            }
+  .banner-container {
+    display: flex;
+    height: 75%;
+    background-image: url("../Images/banner.jpg");
+    opacity: 0.95;
+    align-items: center;
+    text-align: left;
+  }
 
-                #banner-text {
-                    color: white;
-                    font-size: 3.5vw;
-                    padding-left: 50px;
-                }
+  #banner-text {
+    color: white;
+    font-size: 3.5vw;
+    padding-left: 50px;
+  }
 
-            .navigation-container {
-                display: flex;
-                height: 25%;
-                justify-content: space-around;
-                background: black;
-            }
+  .navigation-container {
+    display: flex;
+    height: 25%;
+    justify-content: space-around;
+    background: black;
+  }
 
-                .navigation-container a {
-                    align-self: center;
-                    background: black;
-                    color: white;
-                    text-decoration: none;
-                    font-size: 2.5vw;
-                }
+  .navigation-container a {
+    align-self: center;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-size: 2.5vw;
+  }
 
-        .form-container {
-            grid-area: subscription;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            text-align: center;
-        }
+  .form-container {
+    grid-area: subscription;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+  }
 
-            .sub-form-text {
-                display: grid;
-                flex-direction: column;
-                background-color: white;
-                height: 50%;
-            }
+  .sub-form-text {
+    display: grid;
+    flex-direction: column;
+    background-color: white;
+    height: 50%;
+  }
 
-                .sub-form-text h2 {
-                    font-size: 5vw;
-                }
+  .sub-form-text h2 {
+    font-size: 5vw;
+  }
 
-                .sub-form-text p {
-                    font-size: 3.5vw;
-                }
+  .sub-form-text p {
+    font-size: 3.5vw;
+  }
 
-            .sub-form-fields {
-                display: flex;
-                flex-direction: column;
-                background-color: white;
-                justify-content: center;
-                align-items: center;
-                height: 30%;
-                gap: 10px;
-            }
+  .sub-form-fields {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    gap: 10px;
+  }
 
-                .sub-form-fields input {
-                    height: 30%;
-                    width: 40%;
-                }
+  .sub-form-fields input {
+    height: 30%;
+    width: 40%;
+  }
 
-            .sub-form-button {
-                display: flex;
-                flex-direction: column;
-                background-color: white;
-                justify-content: center;
-                align-items: center;
-                height: 20%;
-                gap: 10px;
-                padding: 10px;
-            }
+  .sub-form-button {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    gap: 10px;
+    padding: 10px;
+  }
 
-                .sub-form-button input {
-                    width: 40%;
-                    height: 55%;
-                    background-color: black;
-                    color: white;
-                    font-size: 2vw;
-                }
+  .sub-form-button input {
+    width: 40%;
+    height: 55%;
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+  }
 
-        .footer-container {
-            display: flex;
-            height: 100%;
-            background: black;
-            color: white;
-            align-items: center;
-            justify-content: center;
-            grid-area: footer;
-        }
+  .footer-container {
+    display: flex;
+    height: 100%;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+  }
 
-            .footer-container a {
-                display: flex;
-                padding-left: 10px;
-                height: 80%;
-                align-items: center;
-            }
+  .footer-container a {
+    display: flex;
+    padding-left: 10px;
+    height: 80%;
+    align-items: center;
+  }
 
-            .footer-container img {
-                height: 80%;
-            }
+  .footer-container img {
+    height: 80%;
+  }
 }
