@@ -1,0 +1,6 @@
+/*Media Query CSS Files*/
+@import "index_large-devices-view.css";
+@import "index_laptops-view.css";
+@import "index_landscape-tablets-view.css";
+@import "index_portrait-tablets-and-large-phone-view.css";
+@import "index_phones-view.css";

@@ -1,0 +1,131 @@
+/*Portrait Tablets and Large Phones*/
+@media (min-width:600px) and (max-width:767px){
+
+    body {
+        margin: 0px;
+        background-color: rgb(220, 220, 224);
+    }
+
+        .root-container {
+            display: grid;
+            grid-template-rows: 300px 1fr 50px;
+            grid-template-columns: 100%;
+            grid-template-areas:
+            "header"
+            "latest-post"
+            "footer";
+            row-gap: 10px;
+        }
+
+            .header-container {
+                display: flex;
+                flex-direction: column;
+                grid-area: header;
+                height: 100%;
+            }
+
+                .banner-container {
+                    display: flex;
+                    height: 75%;
+                    background-image: url("../Images/banner.jpg");
+                    opacity: 0.95;
+                    align-items: center;
+                    text-align: left;
+                }
+
+                    #banner-text {
+                        color: white;
+                        font-size: 3.5vw;
+                        padding-left: 50px;
+                    }
+
+                .navigation-container {
+                    display: flex;
+                    height: 25%;
+                    justify-content: space-around;
+                    background: black;
+                }
+
+                    .navigation-container a {
+                        align-self: center;
+                        background: black;
+                        color: white;
+                        text-decoration: none;
+                        font-size: 2.5vw;
+                    }
+
+            .main-page-latest-post-container {
+                display: grid;
+                grid-auto-rows: 400px;
+                grid-template-columns: repeat(3, 1fr);
+                flex-direction: row;
+                grid-area: latest-post;
+                justify-content: center;
+                align-content: center;
+                column-gap: 8px;
+                row-gap: 8px;
+            }
+
+                .blog-cards {
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    box-shadow: 2px 2px 5px grey;
+                }
+
+                    .latest-post-image-container {
+                        display: flex;
+                        background-color: white;
+                        justify-content: center;
+                        align-items: center;
+                        height: 60%;
+                    }
+
+                        .latest-post-image-container img {
+                            max-height: 95%;
+                            max-width: 95%;
+                        }
+                    
+                    .latest-post-title-container {
+                        display: flex;
+                        justify-content: center;
+                        background-color: white;
+                        height: 40%;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                        .latest-post-title-container a {
+                            text-decoration: none;
+                            color: black;
+                        }
+                    
+                        .latest-post-title-container h1 {
+                            font-size: 2vw;
+                            text-align: center;
+                            max-width: 99%;
+                            padding: 2%;
+                        }
+
+            .footer-container {
+                display: flex;
+                height: 100%;
+                background: black;
+                color: white;
+                align-items: center;
+                justify-content: center;
+                grid-area: footer;
+            }
+
+                .footer-container a {
+                    display: flex;
+                    padding-left: 10px;
+                    height: 80%;
+                    align-items: center;
+                }
+
+                .footer-container img {
+                    height: 80%;
+                }
+
+}
