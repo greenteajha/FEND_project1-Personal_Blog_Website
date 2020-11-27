@@ -816,6 +816,225 @@
 
 /*Phones*/
 @media (max-width:600px){
+
+    body {
+        margin: 0px;
+        background-color: rgb(220, 220, 224);
+    }
+
+        .root-container {
+            display: grid;
+            grid-template-rows: 150px 1fr 100px 50px;
+            grid-template-columns: 100%;
+            grid-template-areas:
+            "header"
+            "post1"
+            "next-post"
+            "footer";
+        }
+
+            .header-container {
+                display: flex;
+                flex-direction: column;
+                grid-area: header;
+                height: 100%;
+            }
+
+                .banner-container {
+                    display: flex;
+                    height: 75%;
+                    background-image: url("../Images/banner.jpg");
+                    opacity: 0.95;
+                    align-items: center;
+                    text-align: left;
+                }
+
+                    #banner-text {
+                        color: white;
+                        font-size: 3.5vw;
+                        padding-left: 50px;
+                    }
+
+                .navigation-container {
+                    display: flex;
+                    height: 25%;
+                    justify-content: space-around;
+                    background: black;
+                }
+
+                    .navigation-container a {
+                        align-self: center;
+                        background: black;
+                        color: white;
+                        text-decoration: none;
+                        font-size: 2.5vw;
+                    }
+
+            .post1-container {
+                grid-area: post1;
+                display: grid;
+                grid-template-rows: 80px 150px 500px 1fr;
+                grid-template-areas: 
+                "title"
+                "author"
+                "image"
+                "content-1";
+            }
+
+                .post1-title-container {
+                    display: flex;
+                    background-color: white;
+                    grid-area: title;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                    .post1-title-container h1 {
+                        max-height: 100%;
+                        font-size: 3.5vw;
+                    }
+
+                .post1-author-header {
+                    display: flex;
+                    flex-direction: row;
+                    background-color: white;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    grid-area: author;
+                }
+
+                    .post1-author-img {
+                        display: flex;
+                        flex-direction: row;
+                        background-color: white;
+                        justify-content: flex-end;
+                        align-items: center;
+                        height: 100%;
+                        width: 100%;
+                        padding-right: 20px;
+                    }
+
+                        .post1-author-img img {
+                            width: 100%;
+                            max-width: 100%;
+                        }
+
+                    .post1-author-info {
+                        display: flex;
+                        flex-direction: column;
+                        background-color: white;
+                        height: 100%;
+                        width: 100%;
+                        padding-left: 20px;
+                        justify-content: center;
+                        font-size: 3vw;
+                    }
+
+                    .post1-image-container {
+                        display: flex;
+                        flex-direction: column;
+                        background-color: white;
+                        grid-area: image;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 10px;
+                        margin: 0px;
+                    }
+    
+                        .post1-image-container img {
+                            width: 100%;
+                            max-width: 100%;
+                        }
+    
+                        .post1-image-container figcaption {
+                            max-width: 100%;
+                            max-height: 100%;
+                            width: 80%;
+                            height: 5%;
+                            padding: 10px;
+                            font-size: 2.5vw;
+                            text-align: center;
+                        }
+    
+                    .post1-content-container {
+                        background-color: white;
+                        grid-area: content-1;
+                        text-align: justify;
+                        padding-top: 50px;
+                    }
+    
+                        .post1-content-container p {
+                            font-size: 3vw;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                        }
+
+            .next-post-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color: white;
+                padding: 10px;
+            }
+
+                .previous-arrow {
+                    display: flex;
+                    height: 100%;
+                    width: 50%;
+                }
+
+                    .previous-arrow a {
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-start;
+                    }
+
+                    .previous-arrow img {
+                        height: 100%;
+                    }
+
+                .next-arrow {
+                    display: flex;
+                    height: 100%;
+                    width: 50%;
+                }
+
+                    .next-arrow a {
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-end;
+                    }
+
+                    .next-arrow img {
+                        height: 100%;
+                    }
+
+            .footer-container {
+                display: flex;
+                height: 100%;
+                background: black;
+                color: white;
+                align-items: center;
+                justify-content: center;
+                grid-area: footer;
+            }
+
+                .footer-container a {
+                    display: flex;
+                    padding-left: 10px;
+                    height: 80%;
+                    align-items: center;
+                }
+
+                .footer-container img {
+                    height: 80%;
+                }
+}
+
+/*Phones
+@media (max-width:600px){
     
     body {
         margin: 0px;
@@ -1015,4 +1234,4 @@
                 .footer-container img {
                     height: 80%;
                 }
-}
+}*/
